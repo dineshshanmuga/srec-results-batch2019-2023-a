@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SREC Result</title>
+    <link rel="icon" type="image/png" href="https://srec.ac.in/themes/frontend/images/favicons-icon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            width: 800px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: -20px; /* Negative spacing added */
+        }
+
+        .outer-box {
+            border: 2px solid red;
+            padding: 5px;
+        }
+
+        .header-box {
+            border: 2px solid red;
+            padding: 10px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .college-logo img {
+            width: 100px;
+        }
+
+        .college-info {
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        .college-info h1 {
+            font-size: 22px;
+            color: #000;
+        }
+
+        .college-info p {
+            font-size: 12px;
+            color: #333;
+            margin: 2px 0;
+        }
+
+        .important-dates {
+            text-align: center;
+            color: red;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .student-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .student-info h2 {
+            color: green;
+            font-size: 18px;
+        }
+
+        .results {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .results th, .results td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .results th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+
+        .summary {
+            width: 300px;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .summary th, .summary td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .summary th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="outer-box">
+            <div class="header-box">
+                <header class="header">
+                    <div class="college-logo">
+                        <img src="snr.png" alt="Left Logo">
+                    </div>
+                    <div class="college-info">
+                        <h1>SRI RAMAKRISHNA ENGINEERING COLLEGE</h1>
+                        <p>[Educational Service : SNR Sons Charitable Trust]</p>
+                        <p>[Autonomous Institution, Reaccredited by NAAC with A+ Grade]</p>
+                        <p>[Approved by AICTE and Permanently Affiliated to Anna University, Chennai]</p>
+                        <p>[ISO 9001-2015 Certified and all eligible programmes Accredited by NBA]</p>
+                        <p>VATTAMALAIPALAYAM, N.G.G.O. COLONY POST, COIMBATORE - 641 022.</p>
+                    </div>
+                    <div class="college-logo">
+                        <img src="srec.jpg" alt="srec">
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <div class="important-dates">
+            <p>Last Date For Applying for Verification of Answer Script is 21.08.2024</p>
+            <p>Last Date For Applying for Photocopy copy is 21.08.2024</p>
+            <p>Last Date For Applying Revaluation is 28.08.2024</p>
+        </div>
+
+        <div class="student-info">
+            <h2>Branch : B.E - MECHANICAL ENGINEERING</h2>
+            <p>Name: <strong>Dinesh</strong></p>
+            <p>Register number: <strong>1904024</strong></p>
+        </div>
+
+        <table class="results">
+            <thead>
+                <tr>
+                    <th>Semester</th>
+                    <th>Subject Code</th>
+                    <th>Subject Title</th>
+                    <th>Grade</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>10ME204</td>
+                    <td>ENGINEERING AND SOCIETY</td>
+                    <td>B</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>10ME220</td>
+                    <td>SUPPLY CHAIN MANAGEMENT</td>
+                    <td>B</td>
+                    <td>Pass</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="summary">
+            <thead>
+                <tr>
+                    <th>CGPA</th>
+                    <th>GPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7.25</td>
+                    <td>7.62</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

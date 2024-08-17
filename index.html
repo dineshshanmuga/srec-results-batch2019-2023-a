@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SREC results</title>
+    <link rel="icon" type="image/png" href="https://srec.ac.in/themes/frontend/images/favicons-icon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            justify-content: center;
+        }
+        
+        .box {
+            width: 90%;
+            max-width: 1000px;
+            padding: 20px;
+            border: 5px double red;
+            background-color: white;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border: 3px solid red;
+            margin: 0;
+        }
+
+        .header img {
+            width: 150px;
+            height: auto;
+        }
+
+        .header .college-info {
+            text-align: center;
+            flex-grow: 1;
+            margin: 0 20px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .header p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .input-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .input-container label {
+            font-size: 18px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .input-container input[type="text"] {
+            padding: 8px;
+            font-size: 16px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .input-container input[type="submit"] {
+            margin-left: 10px;
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .input-container input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="header">
+            <img src="snr.png" alt="Snr">
+            <div class="college-info">
+                <h1>SRI RAMAKRISHNA ENGINEERING COLLEGE</h1>
+                <p>[Educational Service : SNR Sons Charitable Trust]</p>
+                <p>[Autonomous Institution, Reaccredited by NAAC with A+ Grade]</p>
+                <p>[Approved by AICTE and Permanently Affiliated to Anna University, Chennai]</p>
+                <p>[ISO 9001-2015 Certified and all eligible programmes Accredited by NBA]</p>
+                <p>VATTAMALAIPALAYAM, N.G.G.O. COLONY POST, COIMBATORE - 641 022.</p>
+            </div>
+            <img src="srec.jpg" alt="Srec">
+        </div>
+    </div>
+
+    <!-- Input Container for Register Number placed below the red box -->
+    <div class="input-container">
+        <label for="reg-number">Enter your Register Number:</label>
+        <input type="text" id="reg-number" name="reg-number" placeholder="Register Number">
+        <a href="/srecresult/srecresult.html"><input type="submit" value="Submit" ></a>
+    </div>
+</body>
+</html>
